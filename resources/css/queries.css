@@ -1,0 +1,400 @@
+/*-------------------------------------------------------------------------1024px to 1200px------------------------------------------------------*/
+
+@media (min-width: 1024px) and (max-width: 1200px){
+	/*----------Header----------*/
+	.cselect{
+		display: none;
+	}
+	.left-title{
+		display: none;
+	}
+	.bg{
+		display: none;
+	}
+	.nav-right{
+		padding-left: 300px;
+		padding-top: 10px;
+	}
+	.head-center{
+		position: relative; 
+	}
+	.container{
+		position: inherit;
+	}
+	form h1{
+		font-weight: 600px;
+		margin-left: -30px;
+	}
+	form input[type=text]{
+		width: 190%;
+		margin: 10px;
+	}
+	hr{
+		width: 100%;
+	}
+
+	/*----------Section ride----------*/
+
+	.section-ride{
+		display: flex;
+		flex-direction: column;
+	}
+	h2{
+		font-size: 30px;
+	}
+	.ride{
+		height: 300px;
+		display: flex;
+		flex-direction: column;
+	}
+	.ride-box{
+		margin-left: 10px;
+		margin-right: 5px;
+		width: 100%;
+	}
+	.ride .span-1-of-2{
+		width: 100%;
+		margin-left: 0;
+		padding-top: 50px;
+	}
+	.ride img{
+		width: 100px;
+		height: 100px;
+	}
+	.fa-arrow-right{
+		margin-right: -50px;
+		padding: 5px;
+	}
+	.ride-box p{
+		font-size: 14px;
+	}
+
+	/*----------Section safety----------*/
+
+	.section-safety img{
+		width: 100%;
+		height: auto;
+		padding: 20px 0;
+	}
+
+	/*----------Section about----------*/
+
+
+	/*----------Section app----------*/
+
+	.section-app{
+		padding: 40px 80px;
+	}
+	.section-app h2{
+		font-size: 20px;
+	}
+	.section-app .row{
+		display: flex;
+		flex-direction: column;
+	}
+	.section-app img{
+		height: 100px;
+	    width: 100px;
+	}
+
+	.section-app .col{
+		padding: 10px;
+		display: flex;
+		height: 120px;
+		width: 100%;
+		margin: 0 0 20px 0;
+	}
+	.section-app h3{
+		margin: -20px 0px 0 -40px;
+	    font-size: 16px;
+	    width: 90%;
+	}
+	.section-app .fa-arrow-right{
+		margin-top: 30px;
+		margin-left: -55px
+	}
+	/*----------Section signup----------*/
+
+	.section-signup .col{
+	    margin-left: 60px;
+	    margin-inline-end: 0;
+	}
+	.section-signup .fa-arrow-right{
+		margin-left: 120px;
+	}
+	/*----------Footer----------*/
+
+	.foo{
+		display: flex;
+		flex-direction: column;
+	}
+	.foo-list{
+		margin: 40px 0 0 0;
+	}
+	footer .p2{
+		display: flex;
+		flex-direction: column;
+	}
+	footer .p2 .span-1-of-4{
+		display: flex;
+		height: 60px;
+    	width: 240px;
+	}
+	footer .p2 .span-2-of-4{
+		display: flex;
+		flex-direction: column;
+		margin-left: -10px;
+	}
+	footer img{
+		margin-right: 20px;
+	}
+	.copy{
+		display: flex;
+		flex-direction: column;
+	}
+	.copy p{
+		margin-left: 0;
+	}
+	ul {
+		margin-right: 0;
+	}
+	li{
+		padding: 80px 60px 0 0;
+	}
+
+
+}
+
+/*-------------------------------------------------------------------------480px to 768px------------------------------------------------------*/
+
+
+@media (min-width: 480px) and (max-width: 768px){
+	/*----------Header----------*/
+	nav{
+		width: 100%;
+	}
+	nav .col{
+		margin-top: 2%;
+	}
+	.cselect{
+		display: none;
+	}
+	.left-title{
+		display: none;
+	}
+	.bg{
+		display: none;
+	}
+	.nav-right{
+		padding-left: 100px;
+		padding-top: 10px;
+	}
+	.head-center{
+		height: 400px;
+		width: 100%;
+		position: relative; 
+	}
+	.container{
+		height: 550px;
+		width: 100%;
+		position: inherit;
+	}
+	form h1{
+		font-weight: 600px;
+		margin-left: 10px;
+	}
+	form input[type=text]{
+		width: 80%;
+		margin: 10px 50px;
+	}
+	form input[type=submit]{
+		width: 80%;
+		margin: 10px 50px;
+	}
+	hr{
+		width: 100%;
+	}
+	.head-last p{
+		line-height: 20px;
+	}
+
+	/*----------Section ride----------*/
+
+	.section-ride{
+		padding: 50px;
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+	}
+	h2{
+		font-size: 30px;
+	}
+	.ride{
+		padding: 10px;
+		height: 300px;
+		display: flex;
+		flex-direction: column;
+	}
+	.ride-box{
+		margin-left: 10px;
+		margin-right: 5px;
+		width: 100%;
+	}
+	.ride .span-1-of-2{
+		width: 100%;
+		margin-left: 0;
+		padding-top: 50px;
+	}
+	.ride img{
+		width: 100px;
+		height: 100px;
+	}
+	.fa-arrow-right{
+		margin-right: -50px;
+		padding: 5px;
+	}
+	.ride-box p{
+		font-size: 14px;
+	}
+
+	/*----------Section safety----------*/
+
+	.section-safety{
+		padding: 20px;
+		width: 90%;
+		margin-left: 50px
+	}
+	.section-safety img{
+		width: 200%;
+		height: auto;
+		padding: 20px 0;
+	}
+	.section-safety p{
+		width: 200%;
+	}
+	.safe{
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+	    padding-right: 13px;
+	}
+	.section-safety h4{
+		width: 190%;
+	}
+	.btn-saf p{
+		width: max-content;
+	}
+	.sa2{
+		margin-top: 0px;
+	}
+
+	/*----------Section about----------*/
+
+	.section-about{
+		padding: 40px 80px;
+	}
+	.section-about .row{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.section-about .row .span-1-of-3{
+		width: 100%;
+	}
+
+	/*----------Section app----------*/
+
+	.section-app{
+		padding: 40px 80px;
+	}
+	.section-app h2{
+		font-size: 20px;
+	}
+	.section-app .row{
+		display: flex;
+		flex-direction: column;
+	}
+	.section-app img{
+		height: 100px;
+	    width: 100px;
+	}
+
+	.section-app .col{
+		padding: 10px;
+		display: flex;
+		height: 120px;
+		width: 100%;
+		margin: 0 0 20px 0;
+	}
+	.section-app h3{
+		margin: -30px 0px 0 -40px;
+	    font-size: 16px;
+	    width: 90%;
+	}
+	.section-app .fa-arrow-right{
+		margin-top: 30px;
+		margin-left: -55px
+	}
+
+	/*----------Section signup----------*/
+
+	.section-signup{
+		padding: 30px;
+	}
+	.section-signup h2 {
+	    color: black;
+	    width: max-content;
+	    margin-bottom: 35px;
+	}
+	.section-signup .col {
+		margin-bottom: 50px;
+		margin-right: 0;
+	}
+	.section-signup .fa-arrow-right {
+		margin-left: 40px;
+		margin-right: 20px;
+	}
+	/*----------Footer----------*/
+
+	footer .foo{
+		display: flex;
+		flex-direction: column;
+	}
+	.foo .span-1-of-4{
+		padding-top: 40px;
+	}
+	footer .p2{
+		display: flex;
+		flex-direction: column;
+	}
+	footer .p2 .span-1-of-4{
+		display: flex;
+		height: 60px;
+    	width: 240px;
+	}
+	footer .p2 .span-2-of-4{
+		display: flex;
+		flex-direction: column;
+		margin-left: -10px;
+	}
+	footer img{
+		margin-right: 6px;
+	}
+	.copy{
+		display: flex;
+		flex-direction: column;
+	}
+	.copy p{
+		margin-left: 0;
+	}
+	ul {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	li {
+		padding: 80px 40px 0 0;
+	}
+	.span-1-of-2 {
+		width: 48%;
+	}
+}
